@@ -15,6 +15,7 @@ with st.form(key='email_form'):
 Subject: {user_email} wants to contact you!
 
 From: {user_email}
+Topic: {message_topic}
 Message: {user_message}
 """
     button = st.form_submit_button("Send message")
