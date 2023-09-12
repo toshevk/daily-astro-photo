@@ -1,14 +1,15 @@
 import streamlit as st
 
 st.set_page_config(layout="wide")
+st.title("Our Team")
+st.subheader("Krste Tošev")
+
 column1, column2 = st.columns(2)
 
 with column1:
     st.image("images/photo.jpg", width=400)
 
 with column2:
-    st.title("Our Team")
-    st.subheader("Krste Tošev")
     content = """
     Hello, I am Krste!\n
     I am a Python programmer, a salesman, and a Booking.com host!\n
