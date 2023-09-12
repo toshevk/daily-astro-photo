@@ -4,7 +4,8 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-API_URL = os.getenv("api_url")
+# API_URL = os.getenv("api_url")
+API_URL = st.secrets["api_url"]
 
 request = requests.get(API_URL)
 data = request.json()
