@@ -4,6 +4,7 @@ from send_email import send_email
 
 
 topics_df = pandas.read_csv("topics.csv")
+st.set_page_config(layout="wide")
 st.header("Contact Me")
 
 with st.form(key='email_form'):
