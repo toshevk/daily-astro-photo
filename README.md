@@ -4,3 +4,5 @@ This app was created as an exercise in accessing and using APIs.
 
 New photos are accessed daily, using NASA's Open API.
 Users in the contact section are generated using randomuser.me API.
+
+API keys stored in environment variable. Available through NASA's Open API.
