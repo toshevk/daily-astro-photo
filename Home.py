@@ -18,7 +18,7 @@ explanation = data["explanation"]
 img_url = data["url"]
 image = requests.get(img_url)
 
-with open("apod.jpg", "wb") as file:
+with open("images/apod.jpg", "wb") as file:
     file.write(image.content)
 
 st.header("Astrology Photo of the day")
