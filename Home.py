@@ -21,7 +21,7 @@ image = requests.get(img_url)
 with open("apod.jpg", "wb") as file:
     file.write(image.content)
 
-st.header("Astrology Photo of the day")
+st.header("Astronomy Photo of the day")
 st.subheader(title)
 st.write(date)
 st.image("apod.jpg")
