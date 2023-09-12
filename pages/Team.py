@@ -24,3 +24,4 @@ with column2:
     my lovely country Macedonia, so we can have a coffee and a chat!
     """
     st.info(content)
+    st.info("You can check out my projects at https://github.com/toshevk")
